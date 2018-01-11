@@ -7,6 +7,9 @@
 #with faster computer, larger memory, more time and more complicated NN, it may predict a 
 #larger value range;
 
+#python full2.py --train 
+#python full2.py --test
+
 
 
 from __future__ import print_function
