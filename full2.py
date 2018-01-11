@@ -1,4 +1,13 @@
-#train 2 branches with different times
+#the final edition of predictor, fine-tuning of all settings: GDOptimizer, AdamOptimizer, 
+#learning rate, dropout, batch size, NN structure, activation function, loss function, etc;
+#use 2 networks to train Pi and omega+gamma separately;
+#using pickle data generated from data_pick.py
+#omega,gamma have value constraits to ensure the accuracy: omega[10000,20000], gamma[1000,2000] 
+#or something like that;
+#with faster computer, larger memory, more time and more complicated NN, it may predict a 
+#larger value range;
+
+
 
 from __future__ import print_function
 import tensorflow as tf
